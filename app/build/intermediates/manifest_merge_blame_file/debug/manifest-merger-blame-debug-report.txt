@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.zakaria"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CALL_PHONE" />
+11-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:4:5-68
+11-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:4:22-66
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:5:5-65
+12-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:5:22-63
+13
+14    <uses-feature
+14-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:6:5-100
+15        android:name="android.hardware.sensor.gyroscope"
+15-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:6:22-70
+16        android:required="true" />
+16-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:6:74-97
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-database:16.0.4] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/f437ea654b88d88fd6a4e05a0f387147/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:5-79
+18-->[com.google.firebase:firebase-database:16.0.4] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/f437ea654b88d88fd6a4e05a0f387147/jetified-firebase-database-16.0.4/AndroidManifest.xml:22:22-76
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[com.google.firebase:firebase-database:16.0.4] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/f437ea654b88d88fd6a4e05a0f387147/jetified-firebase-database-16.0.4/AndroidManifest.xml:23:5-67
+19-->[com.google.firebase:firebase-database:16.0.4] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/f437ea654b88d88fd6a4e05a0f387147/jetified-firebase-database-16.0.4/AndroidManifest.xml:23:22-64
+20
+21    <uses-feature
+21-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22        android:glEsVersion="0x00020000"
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23        android:required="true" />
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24
+25    <application
+25-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:7:5-47:19
+26        android:allowBackup="true"
+26-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:8:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/b6b5951a20836cbe843a8e306a5032d5/core-1.1.0/AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:9:9-43
+30        android:label="@string/app_name"
+30-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:10:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:11:9-54
+32        android:supportsRtl="true"
+32-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:12:9-35
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:13:9-40
+35        <activity
+35-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:14:9-22:20
+36            android:name="com.example.zakaria.MainActivity"
+36-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:15:13-41
+37            android:launchMode="singleTask" >
+37-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:16:13-44
+38            <intent-filter>
+38-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:17:13-21:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:18:17-69
+39-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:18:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:20:17-77
+41-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:20:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity
+44-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:23:9-26:45
+45            android:name="com.example.zakaria.AccelerometerActivity"
+45-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:24:13-50
+46            android:label="Accelerometer"
+46-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:25:13-42
+47            android:launchMode="singleTop" />
+47-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:26:13-43
+48        <activity
+48-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:27:9-30:45
+49            android:name="com.example.zakaria.GyroscopeActivity"
+49-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:28:13-46
+50            android:label="Gyroscope"
+50-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:29:13-38
+51            android:launchMode="singleTop" />
+51-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:30:13-43
+52        <activity
+52-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:31:9-34:45
+53            android:name="com.example.zakaria.ProximityActivity"
+53-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:32:13-46
+54            android:label="@string/proximity"
+54-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:33:13-46
+55            android:launchMode="singleTop" />
+55-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:34:13-43
+56        <activity
+56-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:35:9-38:45
+57            android:name="com.example.zakaria.ShakeDetectionActivity"
+57-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:36:13-51
+58            android:label="@string/shake_detector"
+58-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:37:13-51
+59            android:launchMode="singleTop" />
+59-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:38:13-43
+60        <activity
+60-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:39:9-42:45
+61            android:name="com.example.zakaria.MapActivity"
+61-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:40:13-40
+62            android:label="@string/map_route"
+62-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:41:13-46
+63            android:launchMode="singleTop" />
+63-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:42:13-43
+64        <activity
+64-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:43:9-46:45
+65            android:name="com.example.zakaria.GyroscopeRetrieve"
+65-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:44:13-46
+66            android:label="@string/gyroscope_data"
+66-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:45:13-51
+67            android:launchMode="singleTop" />
+67-->/Users/zakaria/Desktop/Assignment_201714117/app/src/main/AndroidManifest.xml:46:13-43
+68        <!-- Needs to be explicitly declared on P+ -->
+69        <uses-library
+69-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+70            android:name="org.apache.http.legacy"
+70-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+71            android:required="false" />
+71-->[com.google.android.gms:play-services-maps:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/54ab3033ac1c0ed86f67ec5de980edd5/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+72
+73        <activity
+73-->[com.google.android.gms:play-services-base:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+74            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+74-->[com.google.android.gms:play-services-base:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+75            android:exported="false"
+75-->[com.google.android.gms:play-services-base:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+76            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+76-->[com.google.android.gms:play-services-base:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/951b5e7f354daaaf8db57d3e12181016/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+77
+78        <provider
+78-->[com.google.firebase:firebase-common:16.0.3] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/94fff902489f9469534c750c686e0e0c/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+79            android:name="com.google.firebase.provider.FirebaseInitProvider"
+79-->[com.google.firebase:firebase-common:16.0.3] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/94fff902489f9469534c750c686e0e0c/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+80            android:authorities="com.example.zakaria.firebaseinitprovider"
+80-->[com.google.firebase:firebase-common:16.0.3] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/94fff902489f9469534c750c686e0e0c/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:16.0.3] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/94fff902489f9469534c750c686e0e0c/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:16.0.3] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/94fff902489f9469534c750c686e0e0c/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+83
+84        <meta-data
+84-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/c50e285617a422a2bfed48036c08bfaa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+85            android:name="com.google.android.gms.version"
+85-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/c50e285617a422a2bfed48036c08bfaa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+86            android:value="@integer/google_play_services_version" />
+86-->[com.google.android.gms:play-services-basement:17.0.0] /Users/zakaria/.gradle/caches/transforms-2/files-2.1/c50e285617a422a2bfed48036c08bfaa/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+87    </application>
+88
+89</manifest>

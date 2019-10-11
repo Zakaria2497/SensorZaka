@@ -1,0 +1,4 @@
+#Thu Oct 10 19:35:10 BDT 2019
+base.0=/Users/zakaria/Desktop/Assignment_201714117/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
